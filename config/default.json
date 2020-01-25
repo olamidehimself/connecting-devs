@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://node_beginner:liverpool4real@cluster0-ii3lo.mongodb.net/test?retryWrites=true&w=majority"
+}

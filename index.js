@@ -1,7 +1,10 @@
 const express = require('express');
-
+const connectDB =  require('./config/database');
 // initalizing the app
 const app = express();
+
+// connection to database
+connectDB();
 
 // seting up the port
 const PORT = process.env.PORT || 3000;
