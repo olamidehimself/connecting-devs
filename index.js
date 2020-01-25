@@ -6,6 +6,9 @@ const app = express();
 // connection to database
 connectDB();
 
+// geting users
+app.use('/api/users', require('./routes/api/users'));
+
 // seting up the port
 const PORT = process.env.PORT || 3000;
 
