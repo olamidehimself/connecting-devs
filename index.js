@@ -6,6 +6,8 @@ const app = express();
 // connection to database
 connectDB();
 
+//Init Middleware
+app.use(express.urlencoded({extended: true}));
 // geting users
 app.use('/api/users', require('./routes/api/users'));
 
